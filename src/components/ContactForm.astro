@@ -1,0 +1,59 @@
+---
+/**
+ * HubSpot embed. Mounted with forms v2 so it still works after client
+ * navigations. Portal IDs live in `.env` and fall back to the published form.
+ */
+const portalId = import.meta.env.PUBLIC_HUBSPOT_PORTAL_ID ?? '14531724';
+const formId = import.meta.env.PUBLIC_HUBSPOT_FORM_ID ?? 'dfac6549-4817-4bb2-b710-cfa672c5e999';
+const region = import.meta.env.PUBLIC_HUBSPOT_REGION ?? 'na1';
+---
+
+<div id="hubspot-form" class="hubspot-form" data-portal={portalId} data-form={formId} data-region={region}></div>
+
+<script is:inline>
+	function mountHubspotForm() {
+		const target = document.getElementById('hubspot-form');
+		if (!target) return;
+		target.innerHTML = '';
+
+		const portalId = target.getAttribute('data-portal');
+		const formId = target.getAttribute('data-form');
+		const region = target.getAttribute('data-region');
+
+		const create = () => {
+			if (!window.hbspt?.forms) return;
+			window.hbspt.forms.create({
+				portalId,
+				formId,
+				region,
+				target: '#hubspot-form',
+				onFormReady() {
+					const frame = document.querySelector('#hubspot-form .hs-form-frame');
+					if (frame) frame.style.height = 'auto';
+				},
+			});
+		};
+
+		if (window.hbspt?.forms) {
+			create();
+			return;
+		}
+
+		const existing = document.querySelector('script[data-hubspot-forms="v2"]');
+		if (existing) {
+			existing.addEventListener('load', create, { once: true });
+			return;
+		}
+
+		const script = document.createElement('script');
+		script.src = 'https://js.hsforms.net/forms/v2.js';
+		script.charset = 'utf-8';
+		script.async = true;
+		script.dataset.hubspotForms = 'v2';
+		script.addEventListener('load', create, { once: true });
+		document.body.appendChild(script);
+	}
+
+	document.addEventListener('astro:page-load', mountHubspotForm);
+	mountHubspotForm();
+</script>

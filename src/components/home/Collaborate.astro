@@ -1,0 +1,56 @@
+---
+import Icon from '../Icon.astro';
+import Button from '../Button.astro';
+import siteConfig from '~/config/site';
+import { collaborate } from '~/data/highlights';
+import { withBase } from '~/lib/utils';
+---
+
+<section class="wrap sec" aria-labelledby="collab-h">
+  <div class="collab-grid">
+    <div class="collab-visual rev">
+      <div class="mocks">
+        {
+          collaborate.images.map((image, i) => (
+            <div class:list={['mock', i === 0 ? 'mock-a' : 'mock-b']}>
+              <img
+                src={withBase(image.src)}
+                alt={image.alt}
+                width={image.width}
+                height={image.height}
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          ))
+        }
+      </div>
+      <span class="collab-badge">{collaborate.badge}</span>
+    </div>
+
+    <div class="collab-copy rev rev-d1">
+      <p class="eyebrow">{collaborate.eyebrow}</p>
+      <h2 class="d3 collab-h" id="collab-h"><b>{collaborate.title}</b></h2>
+      <p class="collab-sub">{collaborate.body}</p>
+
+      <div class="collab-panel">
+        <a class="cbox" href={withBase('/contact/')}>
+          <i><Icon name="mail" /></i>
+          <span>
+            <span class="cbox-lbl">Start a project</span>
+            <span class="cbox-val">Contact form</span>
+          </span>
+        </a>
+        <a class="cbox" href={`mailto:${siteConfig.contact.email}`}>
+          <i><Icon name="mail" /></i>
+          <span>
+            <span class="cbox-lbl">Write to me</span>
+            <span class="cbox-val">{siteConfig.contact.email}</span>
+          </span>
+        </a>
+      </div>
+
+      <Button href={collaborate.ctaHref} variant="ink">{collaborate.ctaLabel}</Button>
+    </div>
+  </div>
+</section>

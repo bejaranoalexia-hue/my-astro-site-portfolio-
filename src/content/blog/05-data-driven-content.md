@@ -1,9 +1,17 @@
 ---
 title: "Data-Driven Content Strategy: Stop Guessing, Start Measuring"
-date: 2025-09-22
 description: "Your gut is a good editor, but a terrible strategist. Here's how we use data to decide what to publish, when to publish it, and who to publish it for."
-author: "Author Name"
+pubDate: 2025-09-22
+category: Content
+readingTime: 5 min read
+author: Alexia Bejarano
 tags: [content, strategy, data]
+image:
+  src: /images/collab-meeting.webp
+  alt: Colleagues talking over a laptop
+  width: 800
+  height: 550
+featured: false
 ---
 
 "Create great content" is terrible advice. It's like telling a chef to "cook great food" — directionally true, operationally useless. What matters is a systematic way to decide *what* to create.

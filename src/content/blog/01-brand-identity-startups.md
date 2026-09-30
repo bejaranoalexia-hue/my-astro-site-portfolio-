@@ -1,9 +1,17 @@
 ---
 title: "Brand Identity for Startups: Why It Matters from Day One"
-date: 2025-07-15
 description: "Most founders treat branding as a finishing touch. The truth is, your visual identity shapes perception long before your product ships."
-author: "Author Name"
+pubDate: 2025-07-15
+category: Strategy
+readingTime: 5 min read
+author: Alexia Bejarano
 tags: [branding, startups, strategy]
+image:
+  src: /images/journal-01.webp
+  alt: Studio table with printed layouts
+  width: 800
+  height: 550
+featured: false
 ---
 
 Your brand is not your logo. It's the gut feeling someone gets when they hear your name. For startups racing toward an MVP, branding often sits in the "we'll figure it out later" bucket. That delay costs more than you think.

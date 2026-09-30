@@ -1,14 +1,22 @@
 ---
 title: "What Actually Drove Supreme's Conversion Gains With LeadTruffle"
-date: 2026-09-14T12:00:00
 description: "Speed created the opportunity. AI qualification is what converted it — a look at 1,399 clients, 1,545 leads, and a 6x win-rate gap at Supreme Garage Door."
-author: "Alexia Bejarano"
+pubDate: 2026-09-14
+category: Case study
+readingTime: 8 min read
+author: Alexia Bejarano
 tags: [conversion, case-study, digital]
+image:
+  src: /images/project-console.webp
+  alt: Operations console on a desk with multiple screens
+  width: 900
+  height: 675
+featured: true
 ---
 
 By Alexia Bejarano, Marketing Automation Specialist at Supreme Garage Door.
 
-[Download the full PDF](./Leadtruffle-article-Supreme-09-14-Final.pdf)
+[Download the full PDF](/my-astro-site-portfolio-/blog/07-supreme-leadtruffle/Leadtruffle-article-Supreme-09-14-Final.pdf)
 
 ## The Problem: Before and After
 

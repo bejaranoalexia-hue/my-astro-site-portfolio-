@@ -1,9 +1,17 @@
 ---
 title: "From Brief to Brand: Inside Our Creative Process"
-date: 2025-08-18
-description: "A transparent walkthrough of how Studio Pulse transforms a creative brief into a living brand — from research through delivery."
-author: "Author Name"
+description: "A transparent walkthrough of how AlexFlow.io transforms a creative brief into a living brand — from research through delivery."
+pubDate: 2025-08-18
+category: Process
+readingTime: 5 min read
+author: Alexia Bejarano
 tags: [process, creative, case-study]
+image:
+  src: /images/journal-03.webp
+  alt: Team reviewing sketches
+  width: 800
+  height: 550
+featured: false
 ---
 
 Every project starts with a question: *what's the one thing we want people to feel?* Everything flows from there. Here's how we get from blank page to final delivery.

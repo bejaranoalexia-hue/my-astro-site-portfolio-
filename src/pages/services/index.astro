@@ -1,79 +1,52 @@
 ---
-import Layout from "../../layouts/Layout.astro";
-import Card from "../../components/Card.astro";
-import { url } from "../../lib/site";
+import PageLayout from '~/layouts/PageLayout.astro';
+import ServiceCard from '~/components/cards/ServiceCard.astro';
+import Process from '~/components/home/Process.astro';
+import Faq from '~/components/home/Faq.astro';
+import Cta from '~/components/home/Cta.astro';
+import siteConfig from '~/config/site';
+import { getCollection } from 'astro:content';
+import { isVisible } from '~/lib/utils';
+import { graph, breadcrumbSchema, personSchema } from '~/lib/jsonld';
+
+const services = (await getCollection('services'))
+  .filter(isVisible)
+  .sort((a, b) => a.data.order - b.data.order);
+
+const jsonLd = graph([
+  personSchema(siteConfig),
+  breadcrumbSchema([
+    { name: 'Home', url: `${siteConfig.url}/` },
+    { name: 'Services', url: `${siteConfig.url}/services/` },
+  ]),
+]);
 ---
 
-<Layout title="Services" currentPage="services">
-	<section class="section section-hero" aria-labelledby="services-heading">
-		<div class="container has-text-centered">
-			<p class="tag is-primary is-medium mb-5">Services</p>
-			<h1 id="services-heading" class="title is-1">
-				Systems that turn leads into revenue
-			</h1>
-			<p class="subtitle is-4 mt-4 u-constrained">
-				AlexFlow.io builds AI, marketing operations, CRM automation,
-				and search so inbound demand gets a fast, qualified response.
-			</p>
-		</div>
-	</section>
+<PageLayout
+  title="Services"
+  heading="Four capabilities, one operating system."
+  eyebrow="Engagements"
+  intro="AlexFlow.io builds AI, marketing operations, CRM automation, and search so inbound demand gets a fast, qualified response."
+  description="AI integration, marketing operations, lead management and CRM, and SEO / answer-engine search."
+  crumbs={[{ label: 'Services' }]}
+  jsonLd={jsonLd}
+>
+  <section class="wrap sec" style="padding-top:0" aria-labelledby="svc-list-h">
+    <h2 class="sr-only" id="svc-list-h">All services</h2>
+    <div class="svc">
+      {
+        services.map((service, i) => (
+          <ServiceCard
+            service={service}
+            headingLevel="h3"
+            class:list={['rev', i % 3 > 0 && `rev-d${i % 3}`]}
+          />
+        ))
+      }
+    </div>
+  </section>
 
-	<section class="section has-bg-elevated" aria-labelledby="offerings-heading">
-		<div class="container">
-			<div class="has-text-centered mb-6">
-				<p class="u-label-overline">
-					What we deliver
-				</p>
-				<h2 id="offerings-heading" class="title is-2 mt-3">
-					Four capabilities, one operating system
-				</h2>
-			</div>
-			<ul class="columns is-multiline">
-				<li class="column is-half">
-					<Card title="AI integration" icon="🤖">
-						Connect AI to the tools your team already uses — intake,
-						qualification, follow-up, and reporting — without adding
-						another silo.
-					</Card>
-				</li>
-				<li class="column is-half">
-					<Card title="Marketing Operations" icon="📈">
-						Campaign tracking, lead routing, and reporting that stay
-						in sync so creative work actually reaches the right
-						people at the right time.
-					</Card>
-				</li>
-				<li class="column is-half">
-					<Card title="System of Automation for Lead Management & CRM" icon="🗂️">
-						Unify Google LSA, Angi, forms, and ads into one inbox.
-						Speed-to-lead, qualification, and CRM updates happen
-						the moment a lead arrives.
-					</Card>
-				</li>
-				<li class="column is-half">
-					<Card title="SEO, AOE Search Engine Optimization" icon="🔍">
-						Search and answer-engine visibility that feeds the same
-						pipeline — so high-intent traffic lands in a system
-						built to convert it.
-					</Card>
-				</li>
-			</ul>
-		</div>
-	</section>
-
-	<section class="section" aria-labelledby="cta-heading">
-		<div class="container has-text-centered">
-			<p class="tag is-primary is-medium mb-5">Let's talk</p>
-			<h2 id="cta-heading" class="title is-2">
-				Ready to tighten the loop?
-			</h2>
-			<p class="subtitle is-4 mt-3 u-constrained-sm">
-				Tell us where leads stall today. We'll map the stack that
-				closes the gap.
-			</p>
-			<a class="button is-primary is-large mt-5" href={url("contact")}>
-				Get in touch
-			</a>
-		</div>
-	</section>
-</Layout>
+  <Process />
+  <Faq />
+  <Cta />
+</PageLayout>

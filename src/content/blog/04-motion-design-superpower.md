@@ -1,9 +1,17 @@
 ---
 title: "Motion Design: The Silent Superpower of Modern Brands"
-date: 2025-09-05
 description: "Static brands feel frozen in time. Here's why motion design is no longer optional — and how to do it without a six-figure budget."
-author: "Author Name"
+pubDate: 2025-09-05
+category: Craft
+readingTime: 4 min read
+author: Alexia Bejarano
 tags: [motion, design, trends]
+image:
+  src: /images/reel-poster.webp
+  alt: People reviewing notes at a studio table
+  width: 800
+  height: 550
+featured: false
 ---
 
 Every scroll on Instagram, every refresh of a website, every app opening — your users are surrounded by motion. If your brand stands still, it feels outdated. Not because motion is trendy, but because static has become the anomaly.

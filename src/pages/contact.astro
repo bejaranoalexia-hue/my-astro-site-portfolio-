@@ -1,83 +1,72 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import PageLayout from '~/layouts/PageLayout.astro';
+import ContactForm from '~/components/ContactForm.astro';
+import Icon from '~/components/Icon.astro';
+import Faq from '~/components/home/Faq.astro';
+import siteConfig from '~/config/site';
+import { graph, personSchema, breadcrumbSchema } from '~/lib/jsonld';
+
+const jsonLd = graph([
+  personSchema(siteConfig),
+  breadcrumbSchema([
+    { name: 'Home', url: `${siteConfig.url}/` },
+    { name: 'Contact', url: `${siteConfig.url}/contact/` },
+  ]),
+]);
 ---
 
-<Layout title="Contact" currentPage="contact">
-	<section class="section section-hero" aria-labelledby="contact-heading">
-		<div class="container has-text-centered">
-			<p class="tag is-primary is-medium mb-5">Contact</p>
-			<h1 id="contact-heading" class="title is-1">
-				Let's make something great
-			</h1>
-			<p class="subtitle is-4 mt-4 u-constrained-sm">
-				New project, partnership, or just want to say hello?
-				We read every message.
-			</p>
-		</div>
-	</section>
+<PageLayout
+  title="Contact"
+  heading="Tell me where leads stall today."
+  eyebrow="Contact"
+  intro="New project, partnership, or a pipeline that needs a faster response? Send a note and we'll map the stack that closes the gap."
+  description={`Get in touch with ${siteConfig.author} about AI, marketing operations, CRM automation, or search.`}
+  crumbs={[{ label: 'Contact' }]}
+  jsonLd={jsonLd}
+>
+  <section class="wrap sec" style="padding-top:0" aria-labelledby="form-h">
+    <div class="contact-grid">
+      <div class="rev">
+        <h2 class="d3" id="form-h" style="margin-bottom:24px">Get in touch</h2>
+        <ContactForm />
+      </div>
 
-	<section class="section has-bg-elevated" aria-label="Contact form">
-		<div class="container u-constrained-md">
-			<div class="box is-spacious">
-				<div id="hubspot-form" class="hubspot-form"></div>
-			</div>
+      <div class="contact-aside rev rev-d1">
+        <a class="contact-card" href={`mailto:${siteConfig.contact.email}`}>
+          <i><Icon name="mail" /></i>
+          <div>
+            <b>Email</b>
+            <span>{siteConfig.contact.email}</span>
+          </div>
+        </a>
+        {
+          siteConfig.contact.phone && (
+            <a class="contact-card" href={`tel:${siteConfig.contact.phoneHref}`}>
+              <i><Icon name="phone" /></i>
+              <div>
+                <b>Phone</b>
+                <span>{siteConfig.contact.phone}</span>
+              </div>
+            </a>
+          )
+        }
+        <div class="contact-card">
+          <i><Icon name="pin" /></i>
+          <div>
+            <b>Where</b>
+            <span>{siteConfig.contact.location}</span>
+          </div>
+        </div>
+        <div class="contact-card">
+          <i><Icon name="spark" /></i>
+          <div>
+            <b>Availability</b>
+            <span>{siteConfig.contact.availability}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-			<div class="has-text-centered mt-6">
-				<p class="is-size-5 has-text-weight-semibold has-text-white mb-4">
-					Prefer to reach out directly?
-				</p>
-				<p class="mb-2">
-					<a href="mailto:bejaranoalexia@gmail.com" class="has-text-primary">bejaranoalexia@gmail.com</a>
-				</p>
-			</div>
-		</div>
-	</section>
-</Layout>
-
-<script is:inline>
-	const HUBSPOT_PORTAL_ID = "14531724";
-	const HUBSPOT_FORM_ID = "dfac6549-4817-4bb2-b710-cfa672c5e999";
-	const HUBSPOT_REGION = "na1";
-
-	function mountHubspotForm() {
-		const target = document.getElementById("hubspot-form");
-		if (!target) return;
-		target.innerHTML = "";
-
-		const create = () => {
-			if (!window.hbspt?.forms) return;
-			window.hbspt.forms.create({
-				portalId: HUBSPOT_PORTAL_ID,
-				formId: HUBSPOT_FORM_ID,
-				region: HUBSPOT_REGION,
-				target: "#hubspot-form",
-				onFormReady() {
-					const frame = document.querySelector("#hubspot-form .hs-form-frame");
-					if (frame) frame.style.height = "auto";
-				},
-			});
-		};
-
-		if (window.hbspt?.forms) {
-			create();
-			return;
-		}
-
-		const existing = document.querySelector('script[data-hubspot-forms="v2"]');
-		if (existing) {
-			existing.addEventListener("load", create, { once: true });
-			return;
-		}
-
-		const script = document.createElement("script");
-		script.src = "https://js.hsforms.net/forms/v2.js";
-		script.charset = "utf-8";
-		script.async = true;
-		script.dataset.hubspotForms = "v2";
-		script.addEventListener("load", create, { once: true });
-		document.body.appendChild(script);
-	}
-
-	document.addEventListener("astro:page-load", mountHubspotForm);
-	mountHubspotForm();
-</script>
+  <Faq />
+</PageLayout>

@@ -1,9 +1,17 @@
 ---
 title: "The Future of Digital Campaigns: What 2026 Looks Like"
-date: 2025-08-03
 description: "From AI-generated creative to zero-click content, the rules of digital advertising are being rewritten. Here's what your brand needs to know."
-author: "Author Name"
+pubDate: 2025-08-03
+category: Digital
+readingTime: 4 min read
+author: Alexia Bejarano
 tags: [digital, trends, campaigns]
+image:
+  src: /images/journal-02.webp
+  alt: Laptop and notes on a meeting table
+  width: 800
+  height: 550
+featured: false
 ---
 
 The landscape is shifting faster than most agencies can adapt. Three macro trends are reshaping how brands connect with audiences — and none of them involve bigger budgets.

@@ -1,9 +1,17 @@
 ---
 title: "The Agency-Client Relationship: A Framework for Better Collaboration"
-date: 2025-10-10
 description: "The best work comes from the best partnerships. Here's the operating system we use to keep client relationships healthy, productive, and honest."
-author: "Author Name"
+pubDate: 2025-10-10
+category: Practice
+readingTime: 5 min read
+author: Alexia Bejarano
 tags: [agency, process, collaboration]
+image:
+  src: /images/collab-team.webp
+  alt: Colleagues reviewing work on a tablet
+  width: 800
+  height: 550
+featured: false
 ---
 
 Agencies and clients often talk past each other. The client thinks the agency is moving too slow. The agency thinks the client is giving murky feedback. Both are probably right. The fix isn't better tools — it's better process.

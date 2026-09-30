@@ -1,0 +1,27 @@
+{
+  "name": "AlexFlow.io",
+  "short_name": "AlexFlow",
+  "description": "AlexFlow.io builds AI, marketing operations, CRM automation, and search so inbound demand gets a fast, qualified response.",
+  "start_url": "/my-astro-site-portfolio-/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#c8f14d",
+  "icons": [
+    {
+      "src": "/my-astro-site-portfolio-/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/my-astro-site-portfolio-/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/my-astro-site-portfolio-/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
