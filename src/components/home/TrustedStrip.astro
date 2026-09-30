@@ -2,7 +2,7 @@
 import { clients, clientsLabel } from '~/data/clients';
 ---
 
-<section class="wrap trust" aria-label="Selected clients">
+<section class="wrap trust" aria-label="Tools and platforms">
   <div class="trust-in">
     <p class="trust-lbl">{clientsLabel}</p>
     <div class="marquee">
@@ -10,7 +10,7 @@ import { clients, clientsLabel } from '~/data/clients';
         {
           clients.map((client) => (
             <span class="plogo">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" set:html={client.shape} />
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" set:html={client.shape} />
               {client.name}
             </span>
           ))

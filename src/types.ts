@@ -108,8 +108,8 @@ export interface SiteConfig {
 export interface Client {
   name: string;
   /**
-   * Inline SVG child markup drawn on a 24×24 viewBox. The wrapper supplies
-   * `fill="none" stroke="currentColor" stroke-width="1.8"`.
+   * Inline SVG child markup drawn on a 24×24 viewBox. The wrapper fills
+   * with `currentColor`, so marks should be solid paths.
    */
   shape: string;
 }
