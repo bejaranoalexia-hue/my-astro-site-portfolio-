@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
+import { url } from "../../lib/site";
 
 const posts = (await getCollection("blog")).sort(
     (a, b) => b.data.date.getTime() - a.data.date.getTime(),
@@ -49,7 +50,7 @@ const posts = (await getCollection("blog")).sort(
                                     )}
                                 </div>
                                 <h2 class="blog-card-title">
-                                    <a href={`/blog/${post.id}/`}>
+                                    <a href={url(`blog/${post.id}/`)}>
                                         {post.data.title}
                                     </a>
                                 </h2>

@@ -18,47 +18,9 @@ import Layout from "../layouts/Layout.astro";
 
 	<section class="section has-bg-elevated" aria-label="Contact form">
 		<div class="container u-constrained-md">
-			<form class="box is-spacious">
-				<div class="field">
-					<label class="label" for="name">Full name</label>
-					<div class="control">
-						<input class="input is-medium" id="name" type="text" placeholder="Jane Cooper" required autocomplete="name" />
-					</div>
-				</div>
-				<div class="field">
-					<label class="label" for="email">Work email</label>
-					<div class="control">
-						<input class="input is-medium" id="email" type="email" placeholder="jane@company.com" required autocomplete="email" />
-					</div>
-				</div>
-				<div class="field">
-					<label class="label" for="budget">Budget range</label>
-					<div class="control">
-						<div class="select is-medium is-fullwidth">
-							<select id="budget" required>
-								<option value="" disabled selected>Select a range</option>
-								<option value="10k-25k">$10k – $25k</option>
-								<option value="25k-50k">$25k – $50k</option>
-								<option value="50k-100k">$50k – $100k</option>
-								<option value="100k+">$100k+</option>
-							</select>
-						</div>
-					</div>
-				</div>
-				<div class="field">
-					<label class="label" for="message">Tell us about the project</label>
-					<div class="control">
-						<textarea class="textarea is-medium" id="message" placeholder="Goals, timeline, what success looks like..." rows="5"></textarea>
-					</div>
-				</div>
-				<div class="field mt-5">
-					<div class="control">
-						<button class="button is-primary is-medium is-fullwidth" type="submit">
-							Send message
-						</button>
-					</div>
-				</div>
-			</form>
+			<div class="box is-spacious">
+				<div id="hubspot-form" class="hubspot-form"></div>
+			</div>
 
 			<div class="has-text-centered mt-6">
 				<p class="is-size-5 has-text-weight-semibold has-text-white mb-4">
@@ -71,3 +33,51 @@ import Layout from "../layouts/Layout.astro";
 		</div>
 	</section>
 </Layout>
+
+<script is:inline>
+	const HUBSPOT_PORTAL_ID = "14531724";
+	const HUBSPOT_FORM_ID = "dfac6549-4817-4bb2-b710-cfa672c5e999";
+	const HUBSPOT_REGION = "na1";
+
+	function mountHubspotForm() {
+		const target = document.getElementById("hubspot-form");
+		if (!target) return;
+		target.innerHTML = "";
+
+		const create = () => {
+			if (!window.hbspt?.forms) return;
+			window.hbspt.forms.create({
+				portalId: HUBSPOT_PORTAL_ID,
+				formId: HUBSPOT_FORM_ID,
+				region: HUBSPOT_REGION,
+				target: "#hubspot-form",
+				onFormReady() {
+					const frame = document.querySelector("#hubspot-form .hs-form-frame");
+					if (frame) frame.style.height = "auto";
+				},
+			});
+		};
+
+		if (window.hbspt?.forms) {
+			create();
+			return;
+		}
+
+		const existing = document.querySelector('script[data-hubspot-forms="v2"]');
+		if (existing) {
+			existing.addEventListener("load", create, { once: true });
+			return;
+		}
+
+		const script = document.createElement("script");
+		script.src = "https://js.hsforms.net/forms/v2.js";
+		script.charset = "utf-8";
+		script.async = true;
+		script.dataset.hubspotForms = "v2";
+		script.addEventListener("load", create, { once: true });
+		document.body.appendChild(script);
+	}
+
+	document.addEventListener("astro:page-load", mountHubspotForm);
+	mountHubspotForm();
+</script>

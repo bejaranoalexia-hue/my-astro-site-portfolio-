@@ -681,6 +681,59 @@ hr {
     padding: 3rem;
 }
 
+.hubspot-form {
+    min-height: 32rem;
+}
+
+.hubspot-form .hs-form-frame {
+    height: auto !important;
+    min-height: 32rem !important;
+}
+
+.hubspot-form iframe {
+    width: 100% !important;
+    min-height: 32rem;
+    visibility: visible !important;
+}
+
+.hubspot-form .hs-form-field {
+    margin-bottom: 1.25rem;
+}
+
+.hubspot-form label {
+    display: block;
+    color: var(--sp-text-muted);
+    font-weight: 600;
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.4rem;
+}
+
+.hubspot-form .hs-input,
+.hubspot-form textarea.hs-input,
+.hubspot-form select.hs-input {
+    width: 100%;
+    background-color: var(--sp-surface);
+    border: 1px solid var(--sp-border);
+    border-radius: 0.5rem;
+    color: var(--sp-text);
+    font-size: 0.9375rem;
+    padding: 0.7rem 0.9rem;
+}
+
+.hubspot-form .hs-button,
+.hubspot-form input[type="submit"] {
+    width: 100%;
+    background-color: var(--sp-primary);
+    color: #fff;
+    border: 0;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    padding: 0.85rem 1rem;
+    cursor: pointer;
+}
+
 .gap-sm {
     gap: 0.75rem;
 }

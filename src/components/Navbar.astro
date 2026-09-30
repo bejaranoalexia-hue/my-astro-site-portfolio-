@@ -1,4 +1,6 @@
 ---
+import { url } from "../lib/site";
+
 export interface Props {
     currentPage?: string;
 }
@@ -12,7 +14,7 @@ function isCurrent(page: string) {
 
 <nav class="navbar is-dark" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="/"> Studio Pulse </a>
+        <a class="navbar-item" href={url()}> AlexFlow.io </a>
         <button
             type="button"
             class="navbar-burger"
@@ -27,10 +29,11 @@ function isCurrent(page: string) {
     </div>
     <div id="mainNavbar" class="navbar-menu">
         <div class="navbar-end">
-            <a class="navbar-item" href="/" {...isCurrent("home")}>Home</a>
-            <a class="navbar-item" href="/about" {...isCurrent("about")}>About</a>
-            <a class="navbar-item" href="/blog" {...isCurrent("blog")}>Blog</a>
-            <a class="navbar-item" href="/contact" {...isCurrent("contact")}>Contact</a>
+            <a class="navbar-item" href={url()} {...isCurrent("home")}>Home</a>
+            <a class="navbar-item" href={url("services")} {...isCurrent("services")}>Services</a>
+            <a class="navbar-item" href={url("about")} {...isCurrent("about")}>About</a>
+            <a class="navbar-item" href={url("blog")} {...isCurrent("blog")}>Blog</a>
+            <a class="navbar-item" href={url("contact")} data-astro-reload {...isCurrent("contact")}>Contact</a>
             <div class="navbar-item">
                 <button
                     class="theme-toggle"

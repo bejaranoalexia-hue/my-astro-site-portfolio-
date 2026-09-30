@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
+import { url } from "../../lib/site";
 
 export async function getStaticPaths() {
     const posts = await getCollection("blog");
@@ -21,7 +22,7 @@ const { post, Content } = Astro.props;
 <Layout title={post.data.title} description={post.data.description}>
     <section class="section section-hero">
         <div class="container u-prose">
-            <a class="blog-back" href="/blog">&larr; Back to blog &nbsp;</a>
+            <a class="blog-back" href={url("blog")}>&larr; Back to blog &nbsp;</a>
             <p class="tag is-primary mt-5 mb-4">
                 {
                     post.data.date.toLocaleDateString("en-US", {

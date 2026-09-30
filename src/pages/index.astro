@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
+import { url } from "../lib/site";
 ---
 
 <Layout title="Home" currentPage="home">
@@ -16,8 +17,8 @@ import Card from "../components/Card.astro";
 				to build experiences that demand attention.
 			</p>
 			<div class="buttons is-centered mt-6">
-				<a class="button is-primary is-large" href="/contact">Start a project</a>
-				<a class="button is-outlined is-large" href="/about">Our work</a>
+				<a class="button is-primary is-large" href={url("contact")}>Start a project</a>
+				<a class="button is-outlined is-large" href={url("about")}>Our work</a>
 			</div>
 		</div>
 	</section>
@@ -34,39 +35,27 @@ import Card from "../components/Card.astro";
 			</div>
 			<ul class="columns is-multiline">
 				<li class="column is-one-third">
-					<Card title="Brand Strategy" icon="🎯">
+					<Card title="AI integration" icon="🤖">
 						Positioning, architecture, and narrative frameworks that
 						give your brand clarity and conviction in crowded markets.
 					</Card>
 				</li>
 				<li class="column is-one-third">
-					<Card title="Creative Direction" icon="✨">
+					<Card title="Marketing Operations" icon="📈">
 						Visual identity, art direction, and campaign concepts that
 						stop the scroll and stick in memory.
 					</Card>
 				</li>
 				<li class="column is-one-third">
-					<Card title="Digital & Motion" icon="⚡">
+					<Card title="System of Automation for Lead Management & CRM" icon="🗂️">
 						Websites, apps, and motion design built for performance,
 						crafted to feel as good as they look.
 					</Card>
 				</li>
 				<li class="column is-one-third">
-					<Card title="Content & Social" icon="📣">
+					<Card title="SEO, AOE Search Engine Optimization" icon="🔍">
 						Editorial strategy, copywriting, and social campaigns
 						that turn audiences into communities.
-					</Card>
-				</li>
-				<li class="column is-one-third">
-					<Card title="UX & Product Design" icon="📐">
-						Research-driven interfaces, design systems, and prototypes
-						that ship fast and scale gracefully.
-					</Card>
-				</li>
-				<li class="column is-one-third">
-					<Card title="Video Production" icon="🎬">
-						From concept to final cut — commercial, branded content,
-						and storytelling that moves people.
 					</Card>
 				</li>
 			</ul>
@@ -83,7 +72,7 @@ import Card from "../components/Card.astro";
 				The best brands don't whisper. Let's build something that
 				gets heard.
 			</p>
-			<a class="button is-primary is-large mt-5" href="/contact">
+			<a class="button is-primary is-large mt-5" href={url("contact")}>
 				Get in touch
 			</a>
 		</div>

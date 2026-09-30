@@ -1,0 +1,79 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Card from "../../components/Card.astro";
+import { url } from "../../lib/site";
+---
+
+<Layout title="Services" currentPage="services">
+	<section class="section section-hero" aria-labelledby="services-heading">
+		<div class="container has-text-centered">
+			<p class="tag is-primary is-medium mb-5">Services</p>
+			<h1 id="services-heading" class="title is-1">
+				Systems that turn leads into revenue
+			</h1>
+			<p class="subtitle is-4 mt-4 u-constrained">
+				AlexFlow.io builds AI, marketing operations, CRM automation,
+				and search so inbound demand gets a fast, qualified response.
+			</p>
+		</div>
+	</section>
+
+	<section class="section has-bg-elevated" aria-labelledby="offerings-heading">
+		<div class="container">
+			<div class="has-text-centered mb-6">
+				<p class="u-label-overline">
+					What we deliver
+				</p>
+				<h2 id="offerings-heading" class="title is-2 mt-3">
+					Four capabilities, one operating system
+				</h2>
+			</div>
+			<ul class="columns is-multiline">
+				<li class="column is-half">
+					<Card title="AI integration" icon="🤖">
+						Connect AI to the tools your team already uses — intake,
+						qualification, follow-up, and reporting — without adding
+						another silo.
+					</Card>
+				</li>
+				<li class="column is-half">
+					<Card title="Marketing Operations" icon="📈">
+						Campaign tracking, lead routing, and reporting that stay
+						in sync so creative work actually reaches the right
+						people at the right time.
+					</Card>
+				</li>
+				<li class="column is-half">
+					<Card title="System of Automation for Lead Management & CRM" icon="🗂️">
+						Unify Google LSA, Angi, forms, and ads into one inbox.
+						Speed-to-lead, qualification, and CRM updates happen
+						the moment a lead arrives.
+					</Card>
+				</li>
+				<li class="column is-half">
+					<Card title="SEO, AOE Search Engine Optimization" icon="🔍">
+						Search and answer-engine visibility that feeds the same
+						pipeline — so high-intent traffic lands in a system
+						built to convert it.
+					</Card>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="section" aria-labelledby="cta-heading">
+		<div class="container has-text-centered">
+			<p class="tag is-primary is-medium mb-5">Let's talk</p>
+			<h2 id="cta-heading" class="title is-2">
+				Ready to tighten the loop?
+			</h2>
+			<p class="subtitle is-4 mt-3 u-constrained-sm">
+				Tell us where leads stall today. We'll map the stack that
+				closes the gap.
+			</p>
+			<a class="button is-primary is-large mt-5" href={url("contact")}>
+				Get in touch
+			</a>
+		</div>
+	</section>
+</Layout>
