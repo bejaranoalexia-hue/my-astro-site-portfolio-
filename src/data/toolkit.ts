@@ -13,7 +13,7 @@ export const toolkit: ToolkitItem[] = [
 
 export const toolkitHeading = {
   eyebrow: 'How I work',
-  title: 'Nothing exotic in the box.',
+  title: 'Where Human Strategy Meets AI automation.',
   intro:
     'Connect the sources you already pay for, qualify while the lead is still hot, and leave a system the team can run without a ticket.',
 };
