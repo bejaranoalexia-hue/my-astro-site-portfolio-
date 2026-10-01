@@ -136,7 +136,6 @@ export interface ProcessStep {
   stage: string;
   title: string;
   body: string;
-  timing: string;
 }
 
 export interface Award {

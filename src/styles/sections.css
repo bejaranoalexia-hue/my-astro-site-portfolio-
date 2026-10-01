@@ -734,16 +734,6 @@
 }
 .proc-step h3 { font-size: 21px; margin-bottom: 11px; letter-spacing: -0.024em; }
 .proc-step p { font-size: 14.6px; color: var(--swp-slate); line-height: 1.68; }
-.proc-step em {
-  font-style: normal;
-  display: inline-block;
-  margin-top: 14px;
-  font-size: 12.6px;
-  font-weight: 600;
-  padding: 5px 12px;
-  border-radius: var(--r-pill);
-  background: var(--swp-mist);
-}
 
 /* ============================================================
    11. Recognition
