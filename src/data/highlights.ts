@@ -33,7 +33,7 @@ export const hero = {
 export const collaborate = {
   eyebrow: 'Working together',
   title: 'Examine, Explain and Execute AI Powered Marketing Solutions',
-  body: 'Tell me where intake stalls — Google LSA, Angi, forms, ads — and I will map the stack that answers, qualifies, and updates the CRM the moment a lead arrives.',
+  body: 'I find the bottlenecks where the intake stalls and map out AI-powered solutions that answers, qualifies, and updates the CRM the moment a lead arrives.',
   badge: 'AlexFlow.io',
   ctaLabel: 'Get in touch',
   ctaHref: '/contact/',
