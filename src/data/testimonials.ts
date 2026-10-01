@@ -21,11 +21,11 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      'The first week was spent on the live sources rather than a vendor demo. That single conversation saved us from automating the wrong queue.',
-    name: 'Marketing manager',
-    role: 'Regional service brand',
+      'Beyond her technical acumen, Alexia is an exceptionally clear and empathetic communicator. She possesses a rare ability to bridge the gap between technical back-office systems and front-line field operations, ensuring complex workflows are understandable and actionable for all stakeholders. During major team and system transitions, her proactive updates have consistently kept projects on schedule and aligned.',
+    name: 'Liz Harvey',
+    role: 'Former Chief Marketing Officer for Supreme Garage Door',
     avatar: '/images/avatar-03.webp',
-    avatarAlt: 'Portrait placeholder',
+    avatarAlt: 'Portrait placeholder for Liz Harvey',
     rating: 5,
   },
 ];
