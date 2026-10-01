@@ -3,25 +3,25 @@ import type { ProcessStep } from '~/types';
 export const process: ProcessStep[] = [
   {
     stage: 'Stage 01',
-    title: 'Map',
-    body: 'Every inbound source, the current response times, and where the CRM actually gets updated. We name the stall before we pick a tool.',
+    title: 'Assessment',
+    body: 'Complete assessment of inbound, outbound CRM system and where we can have productivity gains with the integration of AI.',
     timing: 'Week 1',
   },
   {
     stage: 'Stage 02',
-    title: 'Wire',
-    body: 'Intake, qualification, and routing on paper and in the sandbox. You sign off the path, which costs far less to change than a live workflow.',
+    title: 'Mapping',
+    body: 'Map out system with the most cost-effective tools available to the customer.',
     timing: 'Week 2',
   },
   {
     stage: 'Stage 03',
-    title: 'Automate',
+    title: 'Execution',
     body: 'AI replies, unified inbox, CRM writes, and reporting — reviewed live, with the ugly after-hours cases included.',
     timing: 'Weeks 3–5',
   },
   {
     stage: 'Stage 04',
-    title: 'Handover',
+    title: 'Testing',
     body: 'Operating notes, access in your accounts, and a month of questions answered so the queue does not quietly depend on me.',
     timing: 'Week 6',
   },
