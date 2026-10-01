@@ -32,5 +32,5 @@ export const testimonials: Testimonial[] = [
 
 export const testimonialsHeading = {
   eyebrow: 'In their words',
-  title: 'What it feels like once the queue is actually answering.',
+  title: 'The Numbers Are Good. The Feedback Is Better.',
 };
