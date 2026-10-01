@@ -46,7 +46,7 @@ export const siteConfig: SiteConfig = {
   },
 
   social: [
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/', icon: 'linkedin' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/alexia-bejarano-52b412152', icon: 'linkedin' },
   ],
 
   about:
