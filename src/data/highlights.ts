@@ -5,7 +5,7 @@
  */
 
 export const hero = {
-  greeting: 'Hello. The name is',
+  greeting: 'Hello, my name is',
   /** Rendered on two lines. */
   nameLines: ['Alexia', 'Bejarano'],
   intro:
