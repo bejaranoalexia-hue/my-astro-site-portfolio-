@@ -736,34 +736,6 @@
 .proc-step p { font-size: 14.6px; color: var(--swp-slate); line-height: 1.68; }
 
 /* ============================================================
-   11. Recognition
-   ============================================================ */
-.recognition { background: var(--swp-mist); }
-.awards { display: grid; gap: 0; border-top: 1px solid var(--swp-line); }
-.award {
-  display: grid;
-  grid-template-columns: 88px minmax(0, 1.4fr) minmax(0, 1fr) auto;
-  gap: clamp(14px, 2vw, 32px);
-  align-items: center;
-  padding: clamp(20px, 2.2vw, 30px) 0;
-  border-bottom: 1px solid var(--swp-line);
-  transition: background 0.35s var(--ease), padding-inline 0.35s var(--ease);
-}
-.award:hover { background: var(--swp-mist); padding-inline: 20px; }
-.recognition .award:hover { background: #fff; }
-.award-yr { font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--swp-slate); }
-.award h3 { font-size: clamp(19px, 1.9vw, 26px); letter-spacing: -0.026em; }
-.award p { font-size: 14.4px; color: var(--swp-slate); }
-
-@media (max-width: 820px) {
-  .award { grid-template-columns: 1fr auto; gap: 8px 16px; }
-  .award-yr { order: 1; }
-  .award .pill { order: 2; justify-self: end; }
-  .award h3 { order: 3; grid-column: 1 / -1; }
-  .award p { order: 4; grid-column: 1 / -1; }
-}
-
-/* ============================================================
    12. Testimonials
    ============================================================ */
 .tst { background: var(--swp-mist); }

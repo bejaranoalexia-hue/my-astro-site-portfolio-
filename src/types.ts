@@ -138,13 +138,6 @@ export interface ProcessStep {
   body: string;
 }
 
-export interface Award {
-  year: string;
-  title: string;
-  detail: string;
-  tag: string;
-}
-
 export interface FaqItem {
   question: string;
   answer: string;
