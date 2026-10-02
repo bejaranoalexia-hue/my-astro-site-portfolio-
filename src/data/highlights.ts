@@ -32,7 +32,7 @@ export const hero = {
 
 export const collaborate = {
   eyebrow: 'Working together',
-  title: 'Examine, Explain and Execute AI Powered Marketing Solutions',
+  title: 'Scale Your Marketing Without Losing the Human Touch',
   body: 'I find the bottlenecks where the intake stalls and map out AI-powered solutions that answers, qualifies, and updates the CRM the moment a lead arrives.',
   badge: 'AlexFlow.io',
   ctaLabel: 'Get in touch',
@@ -56,29 +56,6 @@ export const collaborate = {
       height: 760,
     },
   ],
-};
-
-export const about = {
-  eyebrow: 'Background',
-  title: 'Speed creates the opportunity. Qualification converts it.',
-  body: 'AlexFlow.io exists because high-intent leads still wait days for a human to triage them. I connect AI to the tools teams already use — intake, qualification, follow-up, and reporting — so the queue is never the bottleneck.',
-  points: [
-    'I look at the live lead sources before I recommend a tool.',
-    'One person on the work from first call through handover.',
-    'If the project is the wrong project, you hear it before you pay.',
-  ],
-  image: {
-    src: '/images/about-studio.webp',
-    alt: 'Team arranging notes and printed layouts across a studio table',
-    width: 900,
-    height: 954,
-  },
-  badge: {
-    value: '6x',
-    label: 'Win-rate gap between fully qualified leads and those never started, in the Supreme dataset.',
-  },
-  ctaLabel: 'See services',
-  ctaHref: '/services/',
 };
 
 export const servicesHeading = {

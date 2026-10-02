@@ -1,6 +1,5 @@
 ---
 import PageLayout from '~/layouts/PageLayout.astro';
-import About from '~/components/home/About.astro';
 import Toolkit from '~/components/home/Toolkit.astro';
 import Process from '~/components/home/Process.astro';
 import Testimonials from '~/components/home/Testimonials.astro';
@@ -27,7 +26,6 @@ const jsonLd = graph([
   crumbs={[{ label: 'About' }]}
   jsonLd={jsonLd}
 >
-  <About headingLevel="h2" id="background" />
   <StatsBand />
   <Toolkit />
   <Process />
