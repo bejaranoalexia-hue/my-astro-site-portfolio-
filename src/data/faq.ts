@@ -2,34 +2,29 @@ import type { FaqItem } from '~/types';
 
 export const faq: FaqItem[] = [
   {
-    question: 'How long does a project usually take?',
+    question: 'What is Marketing Automation?',
     answer:
-      'A lead-routing and CRM build typically runs four to six weeks. A focused automation sprint can be two. If your deadline is tighter than that, say so early and you will get an honest answer about whether it fits.',
+      'Marketing automation is the stack that answers, qualifies, and follows up the moment a lead arrives — forms, ads, inboxes, and CRM writes — so inbound demand does not sit in someone\'s queue for two days.',
   },
   {
-    question: 'Is the price fixed?',
+    question: 'What are the Top Skills in Marketing Automation?',
     answer:
-      'Yes, wherever the scope is defined. One number, one payment schedule, and a written list of what sits inside it. Anything outside becomes a conversation before work starts, never a surprise line on an invoice.',
+      'Connecting live lead sources, mapping the path a contact actually takes, keeping the CRM clean, writing qualification rules, and knowing where AI belongs versus where a person should take over.',
   },
   {
-    question: 'Can you work alongside our existing CRM?',
+    question: 'How do marketing automation and CRM work together?',
     answer:
-      'That is the normal arrangement. I connect AI and intake to the tools you already use — HubSpot, the inboxes, the ad forms — rather than asking you to rip the stack out.',
+      'Automation handles intake and follow-up. The CRM is the system of record. When a lead arrives, the workflow writes the contact, status, and next step so the team sees a live queue instead of a stalled inbox.',
   },
   {
-    question: 'What lands in my hands at the end?',
+    question: 'How can marketing automation improve lead nurturing?',
     answer:
-      'A live intake path, qualification rules, CRM updates, and a short operating note so the team can run it. You own the accounts and the data.',
+      'Immediate response while the lead is still hot, staged follow-up that does not depend on memory, qualification that routes the right people to a human, and CRM updates so nobody drops the thread after the first touch.',
   },
   {
-    question: 'Do you take small pieces of work?',
+    question: 'What are marketing automation services?',
     answer:
-      'Sometimes. A single form-to-CRM path, a speed-to-lead fix, or a one-week review of the current funnel all fit. Larger work tends to work better as a short sprint than as hours scattered across a quarter.',
-  },
-  {
-    question: 'Who owns the work at the end?',
-    answer:
-      'You do. Workflows live in your CRM and automation accounts. I only ask permission to show the work publicly, and I will keep it private if you would rather.',
+      'The work of connecting intake, qualification, follow-up, and CRM updates into one operating path — usually on the tools you already use — so leads are answered immediately and handed to the right person.',
   },
 ];
 
