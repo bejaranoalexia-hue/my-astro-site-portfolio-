@@ -33,7 +33,9 @@ const { headingLevel: Heading = 'h2', id = 'faq' } = Astro.props;
               {item.question}
               <i><Icon name="plus" class="ic-sm" /></i>
             </summary>
-            <div class="faq-a"><p>{item.answer}</p></div>
+            <div class="faq-a">
+              {item.answer.split(/\n\n+/).map((para) => <p>{para}</p>)}
+            </div>
           </details>
         ))
       }

@@ -20,12 +20,12 @@ export const hero = {
   },
   aside: {
     roleLine: ['AlexFlow.io', 'Marketing automation, AI & CRM'],
-    title: ['Revenue', 'Systems'],
+    title: ['Automation', 'Systems'],
     /** Small avatar stack — decorative, so the images carry empty alt text. */
     stack: ['/images/avatar-02.webp', '/images/avatar-01.webp', '/images/avatar-03.webp'],
     stackBadge: '6x',
-    kpi: '1.5k+',
-    kpiLabel: 'leads in the Supreme dataset',
+    kpi: '5.5x',
+    kpiLabel: 'average ROI per automation system implemented',
     note: 'Remote — working across time zones',
   },
 };
