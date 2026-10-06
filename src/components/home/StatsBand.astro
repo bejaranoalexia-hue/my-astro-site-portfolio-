@@ -57,8 +57,9 @@ import { withBase } from '~/lib/utils';
             const el = entry.target as HTMLElement;
             io.unobserve(el);
 
-            const target = Number.parseInt(el.dataset.count ?? '0', 10) || 0;
+            const target = Number.parseFloat(el.dataset.count ?? '0') || 0;
             const suffix = el.dataset.suffix ?? '';
+            const decimals = Number.isInteger(target) ? 0 : 1;
             const duration = 1300;
             let start: number | null = null;
 
@@ -66,7 +67,7 @@ import { withBase } from '~/lib/utils';
               start ??= ts;
               const p = Math.min((ts - start) / duration, 1);
               const eased = 1 - Math.pow(1 - p, 3);
-              el.textContent = Math.round(target * eased) + suffix;
+              el.textContent = (target * eased).toFixed(decimals) + suffix;
               if (p < 1) window.requestAnimationFrame(step);
             };
             window.requestAnimationFrame(step);

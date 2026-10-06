@@ -1,9 +1,9 @@
 import type { Stat } from '~/types';
 
 export const stats: Stat[] = [
-  { value: 6, suffix: 'x', label: 'Win-rate gap when AI qualification finishes' },
-  { value: 73, suffix: '%', label: 'High-intent volume on Google LSA in the Supreme set' },
-  { value: 0, label: 'Days to first response after go-live' },
+  { value: 60, suffix: '%', label: 'average conversion rate on Marketing automation solutions' },
+  { value: 5.5, suffix: 'x', label: 'ROI on AI powered solutions' },
+  { value: 5, label: 'years expertise on Digital Marketing automation' },
 ];
 
 /** Headline above the stats band, split so the tail can be dimmed. */
