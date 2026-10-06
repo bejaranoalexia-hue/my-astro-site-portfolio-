@@ -8,8 +8,8 @@ export const stats: Stat[] = [
 
 /** Headline above the stats band, split so the tail can be dimmed. */
 export const statsHeading = {
-  lead: 'Speed creates the opportunity.',
-  tail: 'AI qualification is what converts it.',
+  lead: 'Smarter Campaigns,',
+  tail: 'Powered by AI, Directed by Humans',
 };
 
 /**
