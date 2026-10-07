@@ -1,34 +1,67 @@
 ---
-title: AI integration
+title: AI Integration for Marketing Teams
 icon: spark
 number: S/01
-excerpt: Connect AI to the tools your team already uses — intake, qualification, follow-up, and reporting — without adding another silo.
-description: AI integration for teams that need faster intake, qualification, and follow-up on the stack they already run.
-tags: ['AI', 'Intake', 'Follow-up']
+excerpt: Turn inbound traffic into qualified pipeline with intelligent automation.
+description: AI integration services that connect your acquisition channels to CRM and sales workflows, using large language models and custom automation to capture, qualify, and route every prospect in real time.
+tags: ['AI', 'CRM', 'Automation']
+featuresHeading: What You Get
 features:
-  - AI replies the moment a lead arrives, including after hours
-  - Qualification that writes back to the CRM instead of living in a chat log
-  - Reporting on response time, qualification depth, and win rate
-  - Handover notes so the team can run it without a new ticket
+  - 'Connected multi-platform automation: your ad channels, forms, CRM, and communication tools working as one system'
+  - 'Sub-minute response workflows: new inquiries contacted the moment they arrive'
+  - 'Branded AI chat and qualification assistants: capturing details and booking appointments around the clock'
+  - 'Clean, attributed lead data: duplicates filtered out, records standardized, campaign performance tracked'
+  - 'Review automation: post-job requests that build social proof and local search visibility'
+  - "Clear documentation and dashboards: SOPs, data mapping, and live activity logs so your team can see exactly what's running"
 process:
-  - title: Audit
-    body: Current sources, response times, and where humans still copy-paste into the CRM.
-  - title: Wire
-    body: Prompts, routing rules, and the fields that must be written on every lead.
-  - title: Launch
-    body: Live on the highest-intent source first, then the rest of the inbox.
+  - title: Audit and Architecture
+    body: I review your channels, lead sources, and software stack to find where leads leak, data gets lost, or responses slow down. The result is a clear integration blueprint.
+  - title: Workflow Engineering
+    body: I build secure data pipelines that capture leads from ads, landing pages, and aggregators, then clean and standardize the data before it reaches your CRM.
+  - title: AI Agent Deployment
+    body: I configure AI assistants around your business rules and scripts. They handle first contact, qualify leads by SMS or web chat, and alert your team the moment a prospect is ready.
+  - title: Tracking and Attribution
+    body: Every lead is tracked from first click to closed job. Each workflow is tested against edge cases and monitored with error logging so your data stays accurate and your systems stay reliable.
 order: 1
 ctaLabel: Get in touch
 ---
 
-## What this is for
+Marketing generates attention across many platforms, but without connected systems behind it, leads get buried, responses slow down, and ad spend goes to waste. My AI integration services connect your acquisition channels to your CRM and sales workflows, using large language models and custom automation to capture, qualify, and route every prospect in real time.
 
-Most teams already have a CRM, a form tool, and an inbox. The gap is the hours between a high-intent lead and a useful reply. AI integration here means connecting those tools so qualification and follow-up happen immediately, without standing up a second system nobody will log into.
+**Works with:** ChatGPT, Gemini, Perplexity, HubSpot, Salesforce, Workiz, Zapier, n8n
 
-## How it usually runs
+## Why AI Integration Matters
 
-Four to six weeks. Week one is the live sources and the actual delay. Then the qualification path is agreed, argued about, and launched on the channel that already converts — usually Google LSA or the main form.
+Marketing moves too fast for disconnected tools and manual data entry. A well-built AI integration gives you:
 
-## What you get
+- **Instant speed-to-lead.** Slow follow-up is one of the biggest reasons leads drop off. Automated workflows qualify and route prospects within seconds instead of days.
+- **Higher ROI and conversion velocity.** Your ad spend is only as effective as the pipeline behind it. Connecting your lead sources to automated follow-up improves both return and retention.
+- **One unified view across channels.** Leads from paid ads, local services platforms, email campaigns, and booking widgets are enriched, mapped to the right CRM fields, and routed to the right person, with no duplicates and no manual handling.
+- **24/7 lead qualification.** Conversational AI assistants answer questions, qualify requests, and book appointments over web chat and SMS, then log everything in your CRM.
+- **Automated review growth.** Post-service messaging turns completed jobs into a steady stream of five-star reviews.
 
-Live AI replies, CRM writes, a short operating note, and a view of win rate by qualification depth so you can see whether the work is doing anything.
+## How It Works
+
+### 1. Audit and Architecture
+
+I review your channels, lead sources, and software stack to find where leads leak, data gets lost, or responses slow down. The result is a clear integration blueprint.
+
+**Typical tools:** HubSpot, Salesforce, Workiz, Google Ads, Meta Ads
+
+### 2. Workflow Engineering
+
+I build secure data pipelines that capture leads from ads, landing pages, and aggregators, then clean and standardize the data before it reaches your CRM.
+
+**Typical tools:** Zapier, n8n, Google Apps Script, Python, webhooks and REST APIs
+
+### 3. AI Agent Deployment
+
+I configure AI assistants around your business rules and scripts. They handle first contact, qualify leads by SMS or web chat, and alert your team the moment a prospect is ready.
+
+**Typical tools:** ChatGPT, Gemini, custom GPTs
+
+### 4. Tracking and Attribution
+
+Every lead is tracked from first click to closed job. Each workflow is tested against edge cases and monitored with error logging so your data stays accurate and your systems stay reliable.
+
+**Typical tools:** Google Tag Manager, UTM parameters, conversion tracking

@@ -61,6 +61,7 @@ const services = defineCollection({
     description: z.string(),
     tags: z.array(z.string()).default([]),
     features: z.array(z.string()).default([]),
+    featuresHeading: z.string().default('What is included'),
     process: z.array(z.object({ title: z.string(), body: z.string() })).default([]),
     ctaLabel: z.string().default('Ask for a scope'),
     order: z.number().default(0),

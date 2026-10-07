@@ -83,7 +83,7 @@ const jsonLd = graph([
       {
         d.features.length > 0 && (
           <div style="margin-top:clamp(40px,4.6vw,64px)">
-            <h2 class="d3 rev" style="margin-bottom:clamp(22px,2.4vw,32px)">What is included</h2>
+            <h2 class="d3 rev" style="margin-bottom:clamp(22px,2.4vw,32px)">{d.featuresHeading}</h2>
             <div class="feature-grid">
               {d.features.map((f, i) => (
                 <div class:list={['feature', 'rev', i % 3 > 0 && `rev-d${i % 3}`]}>
