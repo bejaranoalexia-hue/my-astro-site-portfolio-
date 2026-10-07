@@ -1,5 +1,5 @@
 ---
-title: SEO & answer-engine search
+title: SEO & AOE optimization
 icon: type
 number: S/04
 excerpt: Search and answer-engine visibility that feeds the same pipeline — so high-intent traffic lands in a system built to convert it.
