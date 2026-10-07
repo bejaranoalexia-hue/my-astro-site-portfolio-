@@ -10,7 +10,7 @@ image:
   alt: A desk with screens showing an operations console layout
   width: 900
   height: 675
-services: ['AI integration', 'Lead management & CRM', 'Marketing operations']
+services: ['AI integration', 'Lead Management CRM and Automation', 'Marketing operations']
 technologies: ['LeadTruffle', 'Google LSA', 'CRM']
 results:
   - value: '6x'

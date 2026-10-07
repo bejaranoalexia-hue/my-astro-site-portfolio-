@@ -1,34 +1,34 @@
 ---
-title: Lead management & CRM
+title: Lead Management CRM and Automation
 icon: layers
 number: S/03
-excerpt: Unify Google LSA, Angi, forms, and ads into one inbox. Speed-to-lead, qualification, and CRM updates happen the moment a lead arrives.
-description: A system of automation for lead management and CRM — one inbox, immediate response, and records that stay current.
-tags: ['CRM', 'Speed-to-lead', 'Inbox']
+excerpt: Capture every inquiry, close the gaps in your pipeline, and respond in seconds.
+description: Lead management CRM services that connect marketing to sales so every prospect is captured, validated, and routed to the right person in real time.
+tags: ['CRM', 'Routing', 'Automation']
 features:
-  - One inbox across Google LSA, Angi, forms, and ads
-  - Immediate response instead of a two-to-three-day triage
-  - Qualification status written on the CRM record
-  - After-hours coverage that does not depend on who checks next
+  - Every inquiry captured from ad platforms, inboxes, and forms
+  - Automated validation and deduplication before it hits the CRM
+  - Instant-dialer routing to the right person in seconds
+  - Webhooks connecting marketing to sales in real time
 process:
-  - title: Unify
-    body: Every inbound source into one queue, with ownership that is obvious at a glance.
-  - title: Speed
-    body: Immediate first response, then the qualification path that actually predicts a win.
-  - title: Record
-    body: CRM fields updated as the conversation happens, not in a Friday cleanup.
+  - title: Capture
+    body: Inquiries from ads, inboxes, and spreadsheets land in the CRM instead of sitting in a platform nobody checks.
+  - title: Validate
+    body: Automated deduplication and validation so the record is clean before anyone dials.
+  - title: Route
+    body: Instant-dialer routing to the right person in seconds, not minutes.
 order: 3
-ctaLabel: Get in touch
+ctaLabel: Book a discovery call
 ---
 
-## What this is for
+Inbound inquiries lose value with every minute they sit in ad platforms, inboxes, or spreadsheets. My lead management CRM services connect your marketing to your sales process, so every prospect is captured, validated, and routed to the right person in real time. Using webhooks, automated deduplication, and instant-dialer routing, I turn scattered lead generation into a reliable, scalable revenue pipeline for home service businesses, B2B software companies, and growing teams with gaps in their marketing operations.
 
-If leads still wait two days for a human to triage them, the CRM is a filing cabinet. This engagement builds the operating system around it: one inbox, speed-to-lead, and qualification that updates the record while the conversation is still hot.
+Based in Dallas, Texas, I work fully remotely with mid-size companies across the US and Latin America, so you get hands-on support wherever your team is.
 
-## How it usually runs
+**Works with:** HubSpot, Salesforce, Workiz, ServiceTitan, Zapier, n8n, Callingly
 
-Four to six weeks. The first week is spent on the real delay and the real sources — not a vendor demo. Then the unified inbox, then qualification and CRM writes on the highest-volume channel.
+## Fully Remote Support Across the US and LATAM
 
-## What you get
+I'm based in Dallas, Texas, and work 100% remotely with clients across the United States and Latin America. Every project runs through video calls, shared dashboards, and documented workflows, so the experience is the same wherever your team is located. I work in US time zones, which overlaps well with most of Latin America.
 
-A live queue, immediate first response, qualification on the record, and a handover the CSR team can run.
+Ready to fix your lead management CRM? [Book a discovery call](/my-astro-site-portfolio-/contact/)
