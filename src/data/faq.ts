@@ -9,7 +9,7 @@ export const faq: FaqItem[] = [
   {
     question: 'What are the Top Skills in Marketing Automation?',
     answer:
-      'Connecting live lead sources, mapping the path a contact actually takes, keeping the CRM clean, writing qualification rules, and knowing where AI belongs versus where a person should take over.',
+      'The top skills in marketing now include AEO, SEO, AI integration, and marketing automation. SEO still earns visibility in traditional search. AEO (Answer Engine Optimization) structures content so AI answers and featured results can cite your brand.\n\nAI integration connects those channels to CRM, ads, and reporting on the tools you already use. Marketing automation then runs intake, qualification, and follow-up so leads are answered immediately and handed to the right person.',
   },
   {
     question: 'How do marketing automation and CRM work together?',
