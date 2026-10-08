@@ -1,9 +1,9 @@
 ---
-title: Lead Management CRM and Automation in Dallas, TX
+title: Lead Management CRM and Automation
 icon: layers
 number: S/03
 excerpt: Capture every inquiry, close the gaps in your pipeline, and respond in seconds.
-description: Lead management CRM services for Dallas mid-size companies that connect marketing to sales so every prospect is captured, validated, and routed in real time.
+description: Lead management CRM services that connect marketing to sales so every prospect is captured, validated, and routed in real time.
 tags: ['CRM', 'Routing', 'Automation']
 featuresHeading: What You Get
 features:
@@ -26,7 +26,7 @@ order: 3
 ctaLabel: Book a discovery call
 ---
 
-Inbound inquiries lose value with every minute they sit in ad platforms, inboxes, or spreadsheets. My lead management CRM services help Dallas mid-size companies connect their marketing to their sales process, so every prospect is captured, validated, and routed to the right person in real time. Using webhooks, automated deduplication, and instant-dialer routing, I turn scattered lead generation into a reliable, scalable revenue pipeline for home service businesses, B2B software companies, and growing teams with gaps in their marketing operations.
+Inbound inquiries lose value with every minute they sit in ad platforms, inboxes, or spreadsheets. My lead management CRM services connect your marketing to your sales process, so every prospect is captured, validated, and routed to the right person in real time. Using webhooks, automated deduplication, and instant-dialer routing, I turn scattered lead generation into a reliable, scalable revenue pipeline for home service businesses, B2B software companies, and growing teams with gaps in their marketing operations.
 
 **Works with:** HubSpot, Salesforce, Workiz, ServiceTitan, Zapier, n8n, Callingly
 
@@ -72,3 +72,7 @@ Inbound CRM triggers connect to call queues and team alerts, so a qualified lead
 ### 4. Status Automation and Monitoring
 
 Status changes in your CRM trigger the next step automatically, such as review requests, nurture sequences, or cancellation follow-ups. Logging and error monitoring catch broken connections, expired tokens, and API changes before they affect your operations.
+
+## Fully Remote Support Across the US and LATAM
+
+This service includes full remote support across the United States and Latin America. I'm currently based in LATAM, with active operations in the US through contractor workers. Projects run through video calls, shared dashboards, and documented workflows, so the experience is the same wherever your team is located.

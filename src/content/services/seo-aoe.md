@@ -28,7 +28,7 @@ ctaLabel: Get in touch
 
 Search behavior has changed. Prospective clients still use Google, but they increasingly ask full, conversational questions to Perplexity, ChatGPT, Gemini, and Google AI Overviews. My SEO and AEO (answer engine optimization) services combine technical site health, local search, and entity-based optimization with content structured for AI answers, so your business shows up in both the search results and the answers people now read first.
 
-Based in Dallas, Texas, I work fully remotely with mid-size companies across the US and Latin America, including home service businesses and B2B software companies.
+I work fully remotely with mid-size companies across the US and Latin America, including home service businesses and B2B software companies.
 
 **Works with:** Google Search Console, Google Business Profile, SEMrush, Google Analytics
 
@@ -66,4 +66,4 @@ I create structured, question-and-answer content that answers the full set of re
 
 ## Fully Remote Support Across the US and LATAM
 
-I'm based in Dallas, Texas, and work 100% remotely with clients across the United States and Latin America. Projects run through video calls, shared dashboards, and documented workflows, and I work in US time zones, which overlaps well with most of Latin America.
+This service includes full remote support across the United States and Latin America. I'm currently based in LATAM, with active operations in the US through contractor workers. Projects run through video calls, shared dashboards, and documented workflows, so the experience is the same wherever your team is located.

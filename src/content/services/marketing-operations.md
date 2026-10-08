@@ -32,3 +32,7 @@ Three to five weeks. First an inventory of every source, then a routing map the 
 ## What you get
 
 Mapped sources, live routing, and a report that does not contradict the CRM.
+
+## Fully Remote Support Across the US and LATAM
+
+This service includes full remote support across the United States and Latin America. I'm currently based in LATAM, with active operations in the US through contractor workers. Projects run through video calls, shared dashboards, and documented workflows, so the experience is the same wherever your team is located.

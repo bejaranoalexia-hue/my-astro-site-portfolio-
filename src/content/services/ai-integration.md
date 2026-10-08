@@ -65,3 +65,7 @@ I configure AI assistants around your business rules and scripts. They handle fi
 Every lead is tracked from first click to closed job. Each workflow is tested against edge cases and monitored with error logging so your data stays accurate and your systems stay reliable.
 
 **Typical tools:** Google Tag Manager, UTM parameters, conversion tracking
+
+## Fully Remote Support Across the US and LATAM
+
+This service includes full remote support across the United States and Latin America. I'm currently based in LATAM, with active operations in the US through contractor workers. Projects run through video calls, shared dashboards, and documented workflows, so the experience is the same wherever your team is located.
