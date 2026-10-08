@@ -10,6 +10,16 @@ interface Props {
 }
 
 const { headingLevel: Heading = 'h2', id = 'faq' } = Astro.props;
+
+function answerBlocks(answer: string) {
+  return answer.split(/\n\n+/).map((block) => {
+    const lines = block.split('\n').map((line) => line.trim()).filter(Boolean);
+    if (lines.length > 0 && lines.every((line) => line.startsWith('- '))) {
+      return { type: 'list' as const, items: lines.map((line) => line.slice(2)) };
+    }
+    return { type: 'text' as const, text: block };
+  });
+}
 ---
 
 <section class="wrap sec sec-top" id={id} aria-labelledby="faq-h">
@@ -34,7 +44,17 @@ const { headingLevel: Heading = 'h2', id = 'faq' } = Astro.props;
               <i><Icon name="plus" class="ic-sm" /></i>
             </summary>
             <div class="faq-a">
-              {item.answer.split(/\n\n+/).map((para) => <p>{para}</p>)}
+              {answerBlocks(item.answer).map((block) =>
+                block.type === 'list' ? (
+                  <ul>
+                    {block.items.map((itemText) => (
+                      <li>{itemText}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p>{block.text}</p>
+                ),
+              )}
             </div>
           </details>
         ))

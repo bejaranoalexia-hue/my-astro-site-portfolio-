@@ -803,6 +803,17 @@
 }
 .faq-item[open] > .faq-q i { background: var(--swp-lime); transform: rotate(135deg); }
 .faq-a p { padding: 0 60px 24px 0; font-size: 15px; color: var(--swp-slate); line-height: 1.7; }
+.faq-a p:has(+ ul) { padding-bottom: 10px; }
+.faq-a ul {
+  padding: 0 60px 24px 1.3em;
+  display: grid;
+  gap: 0.45em;
+  list-style: disc;
+  font-size: 15px;
+  color: var(--swp-slate);
+  line-height: 1.7;
+}
+.faq-a li::marker { color: var(--swp-lime-deep); }
 
 /* The accordion is a native <details name="faq"> group: the browser gives
    us exclusive open/close, keyboard support and correct semantics with no
