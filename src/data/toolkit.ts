@@ -2,7 +2,7 @@ import type { ToolkitItem } from '~/types';
 
 export const toolkit: ToolkitItem[] = [
   { icon: 'spark', title: 'AI integration', detail: 'Intake, qualification, and follow-up on the tools you already use.' },
-  { icon: 'chart', title: 'Marketing ops', detail: 'Campaign tracking, routing, and reporting that stay in sync.' },
+  { icon: 'chart', title: 'Marketing ops', detail: 'Build the infrastructure that connects your campaigns, CRM, and revenue.' },
   { icon: 'layers', title: 'CRM Management', detail: 'Speed-to-lead, unified inbox, and updates the moment a lead arrives.' },
   { icon: 'type', title: 'SEO & AEO', detail: 'Win traditional search rankings and earn a place in AI-generated answers.' },
   { icon: 'device', title: 'Expertise on Lead Management.', detail: 'Google LSA, Angi, forms, and ads into one operating system.' },
