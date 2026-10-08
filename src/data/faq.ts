@@ -24,7 +24,7 @@ export const faq: FaqItem[] = [
   {
     question: 'What are marketing automation services?',
     answer:
-      'The work of connecting intake, qualification, follow-up, and CRM updates into one operating path — usually on the tools you already use — so leads are answered immediately and handed to the right person.',
+      'Marketing automation services connect intake, qualification, follow-up, and CRM so inbound demand gets a fast, qualified response. The four capabilities:\n\n- AI Integration for Marketing Teams — turn inbound traffic into qualified pipeline with intelligent automation\n- Marketing Operations — build the infrastructure that connects your campaigns, CRM, and revenue\n- Lead Management CRM and Automation — capture every inquiry, close the gaps in your pipeline, and respond in seconds\n- SEO and AEO Services — win traditional search rankings and earn a place in AI-generated answers',
   },
 ];
 
