@@ -14,12 +14,12 @@ export const faq: FaqItem[] = [
   {
     question: 'How do marketing automation and CRM work together?',
     answer:
-      'Automation handles intake and follow-up. The CRM is the system of record. When a lead arrives, the workflow writes the contact, status, and next step so the team sees a live queue instead of a stalled inbox.',
+      'Marketing automation runs the motion. The CRM is the system of record. Together they keep one live picture of every lead — who they are, where they came from, who owns them, and what happens next.\n\nWhen a form, ad, or aggregator produces a lead, automation creates or updates the CRM record, standardizes fields, checks for duplicates, and writes source, status, and the next step. Scoring and routing then put a qualified contact on the right queue instead of a stalled inbox. As sales works the record, CRM outcomes feed back into automation so active deals stop getting prospecting messages, canceled or unresponsive leads re-enter a sequence, and reporting can tie campaigns to pipeline instead of clicks.\n\n- Automation captures, qualifies, and follows up\n- The CRM stores contacts, owners, statuses, and history\n- A two-way loop keeps marketing and sales looking at the same record',
   },
   {
     question: 'How can marketing automation improve lead nurturing?',
     answer:
-      'Immediate response while the lead is still hot, staged follow-up that does not depend on memory, qualification that routes the right people to a human, and CRM updates so nobody drops the thread after the first touch.',
+      'Most nurturing fails because the first touch is slow and the rest depends on someone remembering to follow up. Marketing automation fixes both: it answers while the lead is still hot, then continues a staged sequence until the person is ready for a human or opts out.\n\nHigh-intent actions — a form fill, a booked-job cancel, a pricing request — can skip a long drip and route straight to a rep. Lower-intent contacts stay in a track that educates, re-engages, and updates the CRM so nobody drops the thread after the first touch.\n\n- Immediate response instead of a two-day wait\n- Staged follow-up that does not depend on memory\n- Qualification that hands the right people to sales\n- Re-engagement for canceled, lost, or unresponsive leads\n- CRM updates so the team sees the full conversation',
   },
   {
     question: 'What are marketing automation services?',
