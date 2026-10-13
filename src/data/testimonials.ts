@@ -7,7 +7,7 @@ export const testimonials: Testimonial[] = [
     name: 'Nikki Lindop',
     role: 'CSR lead, Supreme Garage Door',
     avatar: '/images/avatar-02.webp',
-    avatarAlt: 'Portrait placeholder',
+    avatarAlt: 'Portrait of Nikki Lindop',
     rating: 5,
   },
   {
@@ -16,7 +16,7 @@ export const testimonials: Testimonial[] = [
     name: 'Liz Harvey',
     role: 'Former Chief Marketing Officer for Supreme Garage Door',
     avatar: '/images/avatar-03.webp',
-    avatarAlt: 'Portrait placeholder for Liz Harvey',
+    avatarAlt: 'Portrait of Liz Harvey',
     rating: 5,
   },
 ];

@@ -14,7 +14,7 @@ export const hero = {
   ctaHref: '/contact/',
   photo: {
     src: '/images/hero-portrait.webp',
-    alt: 'Portrait placeholder for Alexia Bejarano',
+    alt: 'Portrait of Alexia Bejarano',
     width: 960,
     height: 1210,
   },
@@ -23,17 +23,17 @@ export const hero = {
     title: ['Automation', 'Systems'],
     /** Small avatar stack — decorative, so the images carry empty alt text. */
     stack: ['/images/avatar-02.webp', '/images/avatar-01.webp', '/images/avatar-03.webp'],
-    stackBadge: '6x',
+    stackBadge: 'AI',
     kpi: '5.5x',
-    kpiLabel: 'average ROI per automation system implemented',
-    note: 'Remote — working across time zones',
+    kpiLabel: 'average ROI on AI-powered solutions',
+    note: 'Based in LATAM — remote across the US and Latin America',
   },
 };
 
 export const collaborate = {
   eyebrow: 'Working together',
   title: 'Scale Your Marketing Without Losing the Human Touch',
-  body: 'I find the bottlenecks where the intake stalls and map out AI-powered solutions that answers, qualifies, and updates the CRM the moment a lead arrives.',
+  body: 'I find the bottlenecks where intake stalls, then map AI-powered systems that answer, qualify, and update the CRM the moment a lead arrives.',
   badge: 'AlexFlow.io',
   ctaLabel: 'Get in touch',
   ctaHref: '/contact/',
@@ -79,6 +79,6 @@ export const journalHeading = {
 
 export const cta = {
   title: 'Ready to tighten the loop?',
-  body: 'Tell us where leads stall today. We\'ll map the stack that closes the gap.',
+  body: 'Tell me where leads stall today. I\'ll map the stack that closes the gap.',
   primaryLabel: 'Get in touch',
 };

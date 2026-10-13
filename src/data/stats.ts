@@ -1,9 +1,9 @@
 import type { Stat } from '~/types';
 
 export const stats: Stat[] = [
-  { value: 60, suffix: '%', label: 'average conversion rate on Marketing automation solutions' },
-  { value: 5.5, suffix: 'x', label: 'ROI on AI powered solutions' },
-  { value: 5, label: 'years expertise on Digital Marketing automation' },
+  { value: 60, suffix: '%', label: 'average conversion rate on marketing automation solutions' },
+  { value: 5.5, suffix: 'x', label: 'average ROI on AI-powered solutions' },
+  { value: 5, label: 'years of expertise in digital marketing automation' },
 ];
 
 /** Headline above the stats band, split so the tail can be dimmed. */
@@ -19,9 +19,9 @@ export const statsHeading = {
  */
 export const reel = {
   image: '/images/reel-poster.webp',
-  alt: 'Two people reviewing notes and sketches at a studio table',
+  alt: 'Two people reviewing notes and sketches at a work table',
   width: 1000,
   height: 625,
   embedUrl: '',
-  label: 'Play the studio reel',
+  label: 'Play the walkthrough',
 };

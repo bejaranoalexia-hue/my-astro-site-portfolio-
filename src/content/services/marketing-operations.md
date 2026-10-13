@@ -5,7 +5,7 @@ number: S/02
 excerpt: Build the infrastructure that connects your campaigns, CRM, and revenue.
 description: Marketing operations services that connect advertising channels, lead sources, CRM, and customer follow-up into one automated revenue engine, so every lead is captured, routed, tracked, and followed up on.
 tags: ['Tracking', 'Attribution', 'Automation']
-featuresHeading: What Do You Get?
+featuresHeading: What You Get
 features:
   - 'Connected lead capture: ad channels, aggregators, and web forms flowing into your CRM with no manual entry and no duplicates'
   - 'Sub-minute response workflows: automated routing that contacts new leads the moment they arrive'

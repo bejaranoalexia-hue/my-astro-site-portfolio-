@@ -40,7 +40,7 @@ export const siteConfig: SiteConfig = {
     email: 'bejaranoalexia@gmail.com',
     phone: '',
     phoneHref: '',
-    location: 'Remote',
+    location: 'LATAM · Remote across the US and Latin America',
     availability: 'Open for new automation projects',
     formEndpoint: '',
   },
