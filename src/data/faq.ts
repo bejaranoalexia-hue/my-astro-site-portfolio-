@@ -4,7 +4,7 @@ export const faq: FaqItem[] = [
   {
     question: 'What is Marketing Automation?',
     answer:
-      'Marketing automation is software that runs repetitive marketing tasks automatically, such as sending emails, scoring leads, and following up with prospects. It lets you deliver the right message at the right time based on what each person does, without handling every step manually.\n\nMarketing automation is a system that allows all marketing efforts to be orchestrated through integrations and AI tools. It is a branch of digital marketing that uses technology to nurture leads, personalize communication, and measure results across channels like email, social media, and paid ads.',
+      'Marketing automation is a system that allows all marketing efforts to be orchestrated through integrations and AI tools. It is a branch of digital marketing that uses technology to nurture leads, personalize communication, and measure results across channels like email, social media, and paid ads.',
   },
   {
     question: 'What are the Top Skills in Marketing Automation?',
