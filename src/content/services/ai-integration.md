@@ -66,6 +66,6 @@ Every lead is tracked from first click to closed job. Each workflow is tested ag
 
 **Typical tools:** Google Tag Manager, UTM parameters, conversion tracking
 
-## Fully Remote Support Across the US and LATAM
+## Fully Remote Support Across the US and Latin America
 
-This service includes full remote support across the United States and Latin America. I'm currently based in LATAM, with active operations in the US through contractor workers. Projects run through video calls, shared dashboards, and documented workflows, so the experience is the same wherever your team is located.
+This service includes full remote support across the United States and Latin America, servicing clients in both English and Spanish. Projects run through video calls, shared dashboards, and documented workflows, so the experience is the same wherever your team is located.

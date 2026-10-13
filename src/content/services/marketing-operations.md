@@ -29,7 +29,7 @@ ctaLabel: Get in touch
 
 Generating leads is only half the job. Without synchronized systems behind your campaigns, high-value prospects slip through the cracks, data fragments across platforms, and ad spend can't be tied to results. My marketing operations services connect your advertising channels, lead sources, CRM, and customer follow-up into one automated revenue engine, so every lead is captured, routed, tracked, and followed up on.
 
-I work fully remotely with mid-size companies across the US and Latin America, including home service businesses and B2B software companies.
+I work fully remotely with mid-size companies across the US and Latin America, servicing clients in both English and Spanish, including home service businesses and B2B software companies.
 
 **Works with:** Google Ads, Meta Ads, Google Local Services Ads, Google Tag Manager, GA4, HubSpot, Salesforce, Workiz, Zapier, n8n, Callingly, ReviewBuzz
 
@@ -67,6 +67,6 @@ I set up tag management, call tracking, UTM standards, and offline conversion tr
 
 **Typical tools:** Google Tag Manager, GA4, Google Ads, Google Sheets
 
-## Fully Remote Support Across the US and LATAM
+## Fully Remote Support Across the US and Latin America
 
-This service includes full remote support across the United States and Latin America. I'm currently based in LATAM, with active operations in the US through contractor workers. Projects run through video calls, shared dashboards, and documented workflows, so the experience is the same wherever your team is located.
+This service includes full remote support across the United States and Latin America, servicing clients in both English and Spanish. Projects run through video calls, shared dashboards, and documented workflows, so the experience is the same wherever your team is located.

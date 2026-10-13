@@ -26,7 +26,7 @@ export const hero = {
     stackBadge: 'AI',
     kpi: '5.5x',
     kpiLabel: 'average ROI on AI-powered solutions',
-    note: 'Based in LATAM — remote across the US and Latin America',
+    note: 'Remote across the US and Latin America — English and Spanish',
   },
 };
 

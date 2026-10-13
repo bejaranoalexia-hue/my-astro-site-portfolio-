@@ -73,6 +73,6 @@ Inbound CRM triggers connect to call queues and team alerts, so a qualified lead
 
 Status changes in your CRM trigger the next step automatically, such as review requests, nurture sequences, or cancellation follow-ups. Logging and error monitoring catch broken connections, expired tokens, and API changes before they affect your operations.
 
-## Fully Remote Support Across the US and LATAM
+## Fully Remote Support Across the US and Latin America
 
-This service includes full remote support across the United States and Latin America. I'm currently based in LATAM, with active operations in the US through contractor workers. Projects run through video calls, shared dashboards, and documented workflows, so the experience is the same wherever your team is located.
+This service includes full remote support across the United States and Latin America, servicing clients in both English and Spanish. Projects run through video calls, shared dashboards, and documented workflows, so the experience is the same wherever your team is located.

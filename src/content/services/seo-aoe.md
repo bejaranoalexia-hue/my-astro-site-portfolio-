@@ -28,7 +28,7 @@ ctaLabel: Get in touch
 
 Search behavior has changed. Prospective clients still use Google, but they increasingly ask full, conversational questions to Perplexity, ChatGPT, Gemini, and Google AI Overviews. My SEO and AEO (answer engine optimization) services combine technical site health, local search, and entity-based optimization with content structured for AI answers, so your business shows up in both the search results and the answers people now read first.
 
-I work fully remotely with mid-size companies across the US and Latin America, including home service businesses and B2B software companies.
+I work fully remotely with mid-size companies across the US and Latin America, servicing clients in both English and Spanish, including home service businesses and B2B software companies.
 
 **Works with:** Google Search Console, Google Business Profile, SEMrush, Google Analytics
 
@@ -64,6 +64,6 @@ I build consistent business listings, sync them with your Google Business Profil
 
 I create structured, question-and-answer content that answers the full set of related questions an AI engine explores when responding to a complex query (often called query fan-out), so your brand is a strong candidate for citation in Gemini, ChatGPT, Perplexity, and AI Overviews.
 
-## Fully Remote Support Across the US and LATAM
+## Fully Remote Support Across the US and Latin America
 
-This service includes full remote support across the United States and Latin America. I'm currently based in LATAM, with active operations in the US through contractor workers. Projects run through video calls, shared dashboards, and documented workflows, so the experience is the same wherever your team is located.
+This service includes full remote support across the United States and Latin America, servicing clients in both English and Spanish. Projects run through video calls, shared dashboards, and documented workflows, so the experience is the same wherever your team is located.
