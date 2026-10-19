@@ -13,10 +13,10 @@ export const hero = {
   ctaLabel: 'Start a project',
   ctaHref: '/contact/',
   photo: {
-    src: '/images/hero-portrait.webp',
+    src: '/images/hero-portrait.jpg',
     alt: 'Portrait of Alexia Bejarano',
-    width: 960,
-    height: 1210,
+    width: 682,
+    height: 1024,
   },
   aside: {
     roleLine: ['AlexFlow.io', 'Marketing automation, AI & CRM'],
