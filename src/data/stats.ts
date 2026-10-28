@@ -3,7 +3,7 @@ import type { Stat } from '~/types';
 export const stats: Stat[] = [
   { value: 60, suffix: '%', label: 'average conversion rate on marketing automation solutions' },
   { value: 5.5, suffix: 'x', label: 'average ROI on AI-powered solutions' },
-  { value: 5, label: 'years of expertise in digital marketing automation' },
+  { value: 6, label: 'years of expertise in digital marketing' },
 ];
 
 /** Headline above the stats band, split so the tail can be dimmed. */
