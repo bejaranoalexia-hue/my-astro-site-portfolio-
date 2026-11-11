@@ -1,7 +1,6 @@
 ---
 import Icon from '../Icon.astro';
 import Button from '../Button.astro';
-import siteConfig from '~/config/site';
 import { faq, faqHeading } from '~/data/faq';
 
 interface Props {
@@ -31,7 +30,7 @@ function answerBlocks(answer: string) {
       <div class="faq-aside">
         <h2>{faqHeading.asideTitle}</h2>
         <p>{faqHeading.asideBody}</p>
-        <Button href={`mailto:${siteConfig.contact.email}`} variant="ink" icon="mail">Write to me</Button>
+        <Button href="/contact/" variant="ink">Get in touch</Button>
       </div>
     </div>
 

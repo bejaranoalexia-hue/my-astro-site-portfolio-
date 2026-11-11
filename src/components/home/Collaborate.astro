@@ -1,7 +1,6 @@
 ---
 import Icon from '../Icon.astro';
 import Button from '../Button.astro';
-import siteConfig from '~/config/site';
 import { collaborate } from '~/data/highlights';
 import { withBase } from '~/lib/utils';
 ---
@@ -39,13 +38,6 @@ import { withBase } from '~/lib/utils';
           <span>
             <span class="cbox-lbl">Start a project</span>
             <span class="cbox-val">Contact form</span>
-          </span>
-        </a>
-        <a class="cbox" href={`mailto:${siteConfig.contact.email}`}>
-          <i><Icon name="mail" /></i>
-          <span>
-            <span class="cbox-lbl">Write to me</span>
-            <span class="cbox-val">{siteConfig.contact.email}</span>
           </span>
         </a>
       </div>

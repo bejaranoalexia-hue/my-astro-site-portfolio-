@@ -1,6 +1,7 @@
 ---
 import PageLayout from '~/layouts/PageLayout.astro';
 import siteConfig from '~/config/site';
+import { withBase } from '~/lib/utils';
 
 const updated = 'This template has not been dated yet.';
 ---
@@ -52,7 +53,7 @@ const updated = 'This template has not been dated yet.';
 
       <h2>Getting in touch</h2>
       <p>
-        Questions about any of this can go to <a href={`mailto:${siteConfig.contact.email}`}>{siteConfig.contact.email}</a>.
+        Questions about any of this can go through the <a href={withBase('/contact/')}>contact form</a>.
       </p>
 
       <p class="mini muted">{updated}</p>

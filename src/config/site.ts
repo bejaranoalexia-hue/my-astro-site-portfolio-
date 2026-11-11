@@ -37,7 +37,7 @@ export const siteConfig: SiteConfig = {
   themeColor: '#c8f14d',
 
   contact: {
-    email: 'bejaranoalexia@gmail.com',
+    email: '',
     phone: '',
     phoneHref: '',
     location: 'Remote across the US and Latin America · English and Spanish',

@@ -32,24 +32,6 @@ const jsonLd = graph([
       </div>
 
       <div class="contact-aside rev rev-d1">
-        <a class="contact-card" href={`mailto:${siteConfig.contact.email}`}>
-          <i><Icon name="mail" /></i>
-          <div>
-            <b>Email</b>
-            <span>{siteConfig.contact.email}</span>
-          </div>
-        </a>
-        {
-          siteConfig.contact.phone && (
-            <a class="contact-card" href={`tel:${siteConfig.contact.phoneHref}`}>
-              <i><Icon name="phone" /></i>
-              <div>
-                <b>Phone</b>
-                <span>{siteConfig.contact.phone}</span>
-              </div>
-            </a>
-          )
-        }
         <div class="contact-card">
           <i><Icon name="pin" /></i>
           <div>

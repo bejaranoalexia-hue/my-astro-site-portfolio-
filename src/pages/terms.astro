@@ -1,6 +1,7 @@
 ---
 import PageLayout from '~/layouts/PageLayout.astro';
 import siteConfig from '~/config/site';
+import { withBase } from '~/lib/utils';
 ---
 
 <PageLayout
@@ -53,7 +54,7 @@ import siteConfig from '~/config/site';
 
       <h2>Questions</h2>
       <p>
-        Send them to <a href={`mailto:${siteConfig.contact.email}`}>{siteConfig.contact.email}</a>.
+        Send them through the <a href={withBase('/contact/')}>contact form</a>.
       </p>
     </div>
   </section>

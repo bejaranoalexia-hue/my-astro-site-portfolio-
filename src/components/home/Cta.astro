@@ -1,5 +1,4 @@
 ---
-import Icon from '../Icon.astro';
 import Button from '../Button.astro';
 import siteConfig from '~/config/site';
 import { cta } from '~/data/highlights';
@@ -22,10 +21,6 @@ const { id = 'cta' } = Astro.props;
 
     <div class="cta-actions">
       <Button href="/contact/" variant="ink">{cta.primaryLabel}</Button>
-      <a class="btn btn-outline-ink" href={`mailto:${siteConfig.contact.email}`}>
-        <span>{siteConfig.contact.email}</span>
-        <i><Icon name="mail" class="ic-sm" /></i>
-      </a>
     </div>
   </div>
 </section>
