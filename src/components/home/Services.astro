@@ -2,6 +2,7 @@
 import Button from '../Button.astro';
 import SectionHeading from '../SectionHeading.astro';
 import ServiceCard from '../cards/ServiceCard.astro';
+import siteConfig from '~/config/site';
 import { servicesHeading } from '~/data/highlights';
 import { getCollection } from 'astro:content';
 import { isVisible } from '~/lib/utils';
@@ -9,11 +10,12 @@ import { isVisible } from '~/lib/utils';
 const services = (await getCollection('services'))
   .filter(isVisible)
   .sort((a, b) => a.data.order - b.data.order);
+const linkedIn = siteConfig.social.find((s) => s.icon === 'linkedin');
 ---
 
 <section class="wrap sec sec-top" id="services" aria-labelledby="svc-h">
   <SectionHeading class="rev" eyebrow={servicesHeading.eyebrow} title={servicesHeading.title} id="svc-h">
-    <Button href={servicesHeading.ctaHref} variant="outline">{servicesHeading.ctaLabel}</Button>
+    {linkedIn && <Button href={linkedIn.href} variant="outline">{servicesHeading.ctaLabel}</Button>}
   </SectionHeading>
 
   <div class="svc">

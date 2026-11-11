@@ -71,7 +71,11 @@ function target(href: string, anchor?: string) {
         })
       }
     </nav>
-    <Button href="/contact/" variant="ink">Get in touch</Button>
+    {
+      siteConfig.social[0] && (
+        <Button href={siteConfig.social[0].href} variant="ink">{siteConfig.social[0].label}</Button>
+      )
+    }
   </div>
 </header>
 

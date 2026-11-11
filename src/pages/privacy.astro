@@ -1,7 +1,6 @@
 ---
 import PageLayout from '~/layouts/PageLayout.astro';
 import siteConfig from '~/config/site';
-import { withBase } from '~/lib/utils';
 
 const updated = 'This template has not been dated yet.';
 ---
@@ -26,7 +25,7 @@ const updated = 'This template has not been dated yet.';
       <h2>What this site collects</h2>
       <p>
         As shipped, this theme is a static site. Fonts are served from this domain.
-        The contact page loads HubSpot's form script so messages can be submitted.
+        Project inquiries go through LinkedIn rather than a contact form on this site.
         No analytics cookies are set by the site itself.
       </p>
 
@@ -37,12 +36,10 @@ const updated = 'This template has not been dated yet.';
         retention policy. Name your host here and link to their privacy policy.
       </p>
 
-      <h2>The contact form</h2>
+      <h2>Getting in touch</h2>
       <p>
-        The contact form is not connected to anything by default. If you connect it to a
-        form provider, that provider receives whatever the form submits — typically a name,
-        an email address and a message — and processes it under their own terms. Name the
-        provider here and link to their policy.
+        There is no contact form on this site. If you message through LinkedIn, that
+        platform processes the conversation under its own terms.
       </p>
 
       <h2>Anything you add</h2>
@@ -51,9 +48,10 @@ const updated = 'This template has not been dated yet.';
         each introduce their own data collection. If you add one, describe it here.
       </p>
 
-      <h2>Getting in touch</h2>
+      <h2>Questions</h2>
       <p>
-        Questions about any of this can go through the <a href={withBase('/contact/')}>contact form</a>.
+        Questions about any of this can go through
+        <a href="https://www.linkedin.com/in/alexia-bejarano-52b412152" rel="noopener noreferrer" target="_blank">LinkedIn</a>.
       </p>
 
       <p class="mini muted">{updated}</p>

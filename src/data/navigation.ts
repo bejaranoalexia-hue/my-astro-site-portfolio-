@@ -12,14 +12,13 @@ export const primaryNav: NavItem[] = [
   { label: 'Services', href: '/services/', anchor: '#services' },
   { label: 'Work', href: '/work/', anchor: '#work' },
   { label: 'Blog', href: '/journal/', anchor: '#journal' },
-  { label: 'Contact', href: '/contact/' },
 ];
 
 /** Extra links shown only in the mobile drawer. */
 export const mobileExtraNav: NavItem[] = [
   { label: 'Toolkit', href: '/about/#toolkit' },
   { label: 'Process', href: '/about/#process' },
-  { label: 'FAQ', href: '/contact/#faq' },
+  { label: 'FAQ', href: '/#faq' },
 ];
 
 export const footerNav = {
@@ -28,7 +27,6 @@ export const footerNav = {
     { label: 'Services', href: '/services/' },
     { label: 'Selected work', href: '/work/' },
     { label: 'Blog', href: '/journal/' },
-    { label: 'Contact', href: '/contact/' },
   ] satisfies NavItem[],
   legal: [
     { label: 'Privacy', href: '/privacy/' },

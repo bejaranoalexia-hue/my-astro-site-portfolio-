@@ -1,6 +1,7 @@
 ---
 import Icon from '../Icon.astro';
 import Button from '../Button.astro';
+import siteConfig from '~/config/site';
 import { faq, faqHeading } from '~/data/faq';
 
 interface Props {
@@ -9,6 +10,7 @@ interface Props {
 }
 
 const { headingLevel: Heading = 'h2', id = 'faq' } = Astro.props;
+const linkedIn = siteConfig.social.find((s) => s.icon === 'linkedin');
 
 function answerBlocks(answer: string) {
   return answer.split(/\n\n+/).map((block) => {
@@ -30,7 +32,7 @@ function answerBlocks(answer: string) {
       <div class="faq-aside">
         <h2>{faqHeading.asideTitle}</h2>
         <p>{faqHeading.asideBody}</p>
-        <Button href="/contact/" variant="ink">Get in touch</Button>
+        {linkedIn && <Button href={linkedIn.href} variant="ink">Get in touch</Button>}
       </div>
     </div>
 

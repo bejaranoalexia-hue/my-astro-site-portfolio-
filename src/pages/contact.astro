@@ -1,10 +1,12 @@
 ---
 import PageLayout from '~/layouts/PageLayout.astro';
-import ContactForm from '~/components/ContactForm.astro';
 import Icon from '~/components/Icon.astro';
+import Button from '~/components/Button.astro';
 import Faq from '~/components/home/Faq.astro';
 import siteConfig from '~/config/site';
 import { graph, personSchema, breadcrumbSchema } from '~/lib/jsonld';
+
+const linkedIn = siteConfig.social.find((s) => s.icon === 'linkedin');
 
 const jsonLd = graph([
   personSchema(siteConfig),
@@ -19,7 +21,7 @@ const jsonLd = graph([
   title="Contact"
   heading="Tell me where leads stall today."
   eyebrow="Contact"
-  intro="New project, partnership, or a pipeline that needs a faster response? Send a note and I'll map the stack that closes the gap."
+  intro="New project, partnership, or a pipeline that needs a faster response? Reach out on LinkedIn and I'll map the stack that closes the gap."
   description={`Get in touch with ${siteConfig.author} about AI, marketing operations, CRM automation, or search.`}
   crumbs={[{ label: 'Contact' }]}
   jsonLd={jsonLd}
@@ -28,7 +30,14 @@ const jsonLd = graph([
     <div class="contact-grid">
       <div class="rev">
         <h2 class="d3" id="form-h" style="margin-bottom:24px">Get in touch</h2>
-        <ContactForm />
+        <p style="margin-bottom:24px;max-width:42ch;color:var(--swp-slate)">
+          Use LinkedIn for project inquiries. I reply there with next steps.
+        </p>
+        {
+          linkedIn && (
+            <Button href={linkedIn.href} variant="ink" icon="linkedin">{linkedIn.label}</Button>
+          )
+        }
       </div>
 
       <div class="contact-aside rev rev-d1">

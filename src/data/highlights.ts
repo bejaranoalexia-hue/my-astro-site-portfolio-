@@ -11,7 +11,7 @@ export const hero = {
   intro:
     'I build AI, marketing operations, and CRM systems so inbound demand gets a fast, qualified response — not a two-day wait in someone\'s inbox.',
   ctaLabel: 'Start a project',
-  ctaHref: '/contact/',
+  ctaHref: 'https://www.linkedin.com/in/alexia-bejarano-52b412152',
   photo: {
     src: '/images/hero-portrait.jpg',
     alt: 'Portrait of Alexia Bejarano',
@@ -36,7 +36,7 @@ export const collaborate = {
   body: 'I find the bottlenecks where intake stalls, then map AI-powered systems that answer, qualify, and update the CRM the moment a lead arrives.',
   badge: 'AlexFlow.io',
   ctaLabel: 'Get in touch',
-  ctaHref: '/contact/',
+  ctaHref: 'https://www.linkedin.com/in/alexia-bejarano-52b412152',
   /**
    * The staggered pair beside the copy. Swap these for the bundled SVG
    * mockups (`BookletMock`, `TabletMock` in src/components/art/) if you would
@@ -62,7 +62,7 @@ export const servicesHeading = {
   eyebrow: 'Engagements',
   title: 'Four capabilities, one operating system.',
   ctaLabel: 'Ask for a scope',
-  ctaHref: '/contact/',
+  ctaHref: 'https://www.linkedin.com/in/alexia-bejarano-52b412152',
 };
 
 export const workHeading = {

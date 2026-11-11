@@ -54,10 +54,16 @@ const year = new Date().getFullYear();
 
     <div>
       <h2>Get in touch</h2>
-      <div class="ftr-cbox">
-        <Icon name="mail" class="ic-sm" />
-        <span><a href={withBase('/contact/')}>Contact form</a></span>
-      </div>
+      {
+        siteConfig.social.map((s) => (
+          <div class="ftr-cbox">
+            <Icon name={s.icon} class="ic-sm" />
+            <span>
+              <a href={s.href} rel="noopener noreferrer" target="_blank">{s.label}</a>
+            </span>
+          </div>
+        ))
+      }
       <div class="ftr-cbox">
         <Icon name="pin" class="ic-sm" />
         <span>{siteConfig.contact.location}</span>

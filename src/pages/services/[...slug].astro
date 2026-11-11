@@ -28,6 +28,7 @@ interface Props {
 
 const { service, next } = Astro.props;
 const { Content } = await render(service);
+const linkedIn = siteConfig.social.find((s) => s.icon === 'linkedin');
 const d = service.data;
 
 const jsonLd = graph([
@@ -76,7 +77,7 @@ const jsonLd = graph([
               {d.process.map((step) => <li><strong>{step.title}.</strong> {step.body}</li>)}
             </ul>
           </div>
-          <Button href="/contact/" variant="ink">{d.ctaLabel}</Button>
+          {linkedIn && <Button href={linkedIn.href} variant="ink">{d.ctaLabel}</Button>}
         </aside>
       </div>
 
