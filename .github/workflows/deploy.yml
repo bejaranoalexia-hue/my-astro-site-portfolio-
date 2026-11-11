@@ -11,7 +11,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  # New group name bypasses older "pages" runs stuck forever in queued
+  group: pages-deploy
   cancel-in-progress: true
 
 jobs:
